@@ -4,15 +4,23 @@ In this exercise we'll make sure that everyone has access to the servers they're
 going to need during the workshop. We'll also finish off some basic setup that's
 needed in a later exercise.
 
-### Setting up
+### Vi
+
+1. We'll be using `vi` during this workshop. If you're not comfortable with `vi`
+   see if you can move so you're sat next to someone who can help you. There is
+   also a quick introduction [here][vi].
+
+### Windows Users
 
 1. If you're running on Windows and _don't_ have an SSH client installed you'll
    need to install something like [PuTTY][putty].
    
    > **Tip:** Mac and Linux users have a built in SSH client and can skip this
    > step.
+  
+### Setting Up
    
-2. Get a copy of `docker.pem` from the memory stick circulating round the room.
+1. Get a copy of `docker.pem` from the memory stick circulating round the room.
 
    > **Tip:** Mac and Linux users should put this file in `~/.ssh` and then run
    > `chmod 600 ~/.ssh/docker.pem`.
@@ -22,12 +30,12 @@ needed in a later exercise.
    > keyfile can be found [here][instructions] (scroll down to the section 
    > _Setting Up an SSH Session with SSH Keys in PuTTY_)
    
-3. Note down 3 IP addresses from the sheet of paper that's going around the room
+2. Note down 3 IP addresses from the sheet of paper that's going around the room
    with the memory stick. The first IP will be used for your _Docker 
    repository_, the second will be used as a _development environment_ and the
    third is your _live environment_.
    
-4. Ensure you can connect to all three machines. You will need to run the 
+3. Ensure you can connect to all three machines. You will need to run the 
    following commands to complete the setup:
    
    ```
@@ -43,5 +51,6 @@ needed in a later exercise.
    > **Tip:** If you leave open the three connections to the three machines you
    > can re-use them in the future exercises. 
 
+[vi]: http://www.unix-manuals.com/tutorials/vi/vi-in-10-1.html
 [putty]: http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe
 [instructions]: https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-putty-on-digitalocean-droplets-windows-users
