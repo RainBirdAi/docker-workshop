@@ -12,6 +12,6 @@ detail in future exercises.
    > looking for. If you're having problems check your input matches the 
    > expected text.
 
-> **Note:** You _don't_ need to do the follow on steps once you've completed the 
-> 8 tutorials, although you may want to revisit them later if you want to do
-> more investigation on your own.
+   > **Note:** You _don't_ need to do the follow on steps once you've completed the 
+   > 8 tutorials, although you may want to revisit them later if you want to do
+   > more investigation on your own.
