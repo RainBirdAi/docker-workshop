@@ -4,7 +4,9 @@ In this exercise we're going to look at overriding an entry point to allow us to
 potentially debug an image. We'll do this by running a `bash` shell in the 
 container.
 
-## Invoking an interactive shell within a container that uses `CMD`
+## Invoking an interactive shell
+
+### Within a container that uses `CMD`
 
 1. With an SSH session to your _development_ server, run the `curl-container` 
    using the default command, then override this by passing in a command line 
@@ -28,7 +30,7 @@ container.
     # exit
     ```
  
-## Invoking an interactive shell within a container that uses `ENTRYPOINT`
+### Within a container that uses `ENTRYPOINT`
    
 1. Attempt to attach `bash` to the `curl-binary` image.
 
