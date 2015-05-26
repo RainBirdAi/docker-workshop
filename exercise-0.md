@@ -1,16 +1,16 @@
-## Exercise 0
+# Exercise 0
 
 In this exercise we'll make sure that everyone has access to the servers they're
 going to need during the workshop. We'll also finish off some basic setup that's
 needed in a later exercise.
 
-### Vi
+## Vi
 
 1. We'll be using `vi` during this workshop. If you're not comfortable with `vi`
    see if you can move so you're sat next to someone who can help you. There is
    also a quick introduction [here][vi].
 
-### Windows Users
+## Windows Users
 
 1. If you're running on Windows and _don't_ have an SSH client installed you'll
    need to install something like [PuTTY][putty].
@@ -18,7 +18,7 @@ needed in a later exercise.
    > **Tip:** Mac and Linux users have a built in SSH client and can skip this
    > step.
   
-### Setting Up
+## Setting Up
    
 1. Get a copy of `docker.pem` from the memory stick circulating round the room.
 
