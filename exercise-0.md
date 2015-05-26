@@ -1,8 +1,10 @@
-## Exercise 0 - Setting up
+## Exercise 0
 
 In this exercise we'll make sure that everyone has access to the servers they're
 going to need during the workshop. We'll also finish off some basic setup that's
 needed in a later exercise.
+
+### Setting up
 
 1. If you're running on Windows and _don't_ have an SSH client installed you'll
    need to install something like [PuTTY][putty].
