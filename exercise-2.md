@@ -11,12 +11,10 @@ a local registry.
 > machines assigned to you. Use the first machine on your list. We'll refer to 
 > this machine as your _Docker repository_ in future exercises. 
 
-> You will need two SSH sessions to the server you're running this on.
-
 ## Running a Docker image from the public registry
 
-1. In the _first_ SSH session run the `hello-world` image from the Docker public 
-   registry:
+1. In an SSH session to your _Docker repository_ server, run the `hello-world` 
+   image from the Docker public registry:
 
    ```
    $ docker run hello-world
@@ -30,16 +28,14 @@ a local registry.
 1. Start a registry on your localhost:
 
    ```
-   $ docker run -p 5000:5000 registry:0.9.1
+   $ docker run -d -p 5000:5000 registry:0.9.1
    ```
 	
    This pulls version `0.9.1` of the official Docker registry image and runs it 
-   on your host using port `5000`. We'll revisit the `-p` flag lager.
+   on your host using port `5000`. We'll revisit the `-d` and `-p` flags lager.
     
-   > **Note:** Leave this container running as we will use it in future 
-   > exercises. You can minimise the SSH session so it's out of the way.
 	
-2. In your _second_ SSH list the images running on you repository server:
+2. List the images running on you repository server:
 	
    ```
    $ docker images
