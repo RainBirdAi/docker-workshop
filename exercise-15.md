@@ -1,4 +1,4 @@
-# Exercise 14
+# Exercise 15
 
 In this quick exercise we're going to look at how base images can affect the 
 size of your images and containers. Large, bloated images can often take up lots
