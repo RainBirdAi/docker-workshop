@@ -43,10 +43,10 @@ needed in a later exercise.
    $ sudo systemctl restart docker
    ```
    
-   > **Tip:** Docker is installed by default on _CoreOS_, however, we're going
-   > to be using an insecure repository during the workshop. The above commands
-   > load in a pre-generated configuration file that allows for this and
-   > restarts Docker so it can read the file.
+   Docker is installed by default on _CoreOS_, however, we're going to be using 
+   an insecure repository during the workshop. The above commands load in a 
+   pre-generated configuration file that allows for this and restarts Docker so 
+   it can read the file.
    
    > **Tip:** If you leave open the three connections to the three machines you
    > can re-use them in the future exercises. 
