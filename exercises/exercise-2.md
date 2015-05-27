@@ -32,7 +32,7 @@ a local registry.
    ```
 	
    This pulls version `0.9.1` of the official Docker registry image and runs it 
-   on your host using port `5000`. We'll revisit the `-d` and `-p` flags lager.
+   on your host using port `5000`. We'll revisit the `-d` and `-p` flags later.
     
 	
 2. List the images running on you repository server:
