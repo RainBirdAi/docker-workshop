@@ -111,6 +111,6 @@ repository.
 3. Run the container on your _production_ server:
 
    ```
-   $ docker run curl-container
+   $ docker run <your-repo-ip>:5000/curl-container
    ```
    
