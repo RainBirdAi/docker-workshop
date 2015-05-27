@@ -30,10 +30,11 @@ needed in a later exercise.
    > keyfile can be found [here][instructions] (scroll down to the section 
    > _Setting Up an SSH Session with SSH Keys in PuTTY_)
    
-2. Note down 3 IP addresses from the sheet of paper that's going around the room
-   with the memory stick. The first IP will be used for your _Docker 
-   repository_, the second will be used as a _development environment_ and the
-   third is your _live environment_.
+2. Make sure you've got a bit of paper with 3 IP addresses on it. Put your name
+   on it and make sure you keep it safe. These are your three machines for the
+   workshop. The first IP will be used for your _Docker repository_, the second 
+   will be used as a _development environment_ and the third is your 
+   _live environment_.
    
 3. Ensure you can connect to all three machines. You will need to run the 
    following commands to complete the setup:
