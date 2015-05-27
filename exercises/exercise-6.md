@@ -12,7 +12,7 @@ how it allows us to treat a container as a binary.
    $ cd
    $ mkdir curl-binary
    $ cd curl-binary
-   $ cp ../curl/container/Dockerfile .
+   $ cp ../curl-container/Dockerfile .
    ```
     
 3. Ammend the last line of the `Dockerfile` using `vi Dockerfile`:
