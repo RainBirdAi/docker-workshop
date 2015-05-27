@@ -15,7 +15,7 @@ distributions in a container.
    $ docker pull debian
    ```
 
-3. Run the echo command on your container so it displays _"Hello World!"_.
+3. Run the echo command on your container so it displays _"Hello World"_.
 
 > **Tip:** You can refer back to exercise 1 and 2 for a reminder on the syntax
 > running a command in a container.
